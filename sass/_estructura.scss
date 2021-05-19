@@ -1,0 +1,51 @@
+$padding: 15px;
+$height: 300px;
+
+.aparecer {
+    animation-duration: 3s;
+    animation-name: aparecer;
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.productos {
+    max-width: 1500px;
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: $padding;
+}
+.productos .card figure {
+    overflow: hidden;
+}
+.card-img-top:hover img {
+    transition: all .4s ease-in-out;
+}
+.row {
+    justify-content: center;
+    .card {
+        margin: 15px;
+        justify-content: center;
+    }
+}
+.card-img-top {
+    height: $height;
+}
+.pie {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding: $padding;
+}
+.principal {
+    padding: 15px 15px 0 15px;
+}
+.botones {
+    padding-bottom: 10px;
+}

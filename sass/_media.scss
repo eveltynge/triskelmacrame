@@ -1,0 +1,13 @@
+.aparecer {
+    display: none;
+}
+@media (min-width: 801px) {
+    .aparecer {
+        display: block;
+    }
+}
+@media (max-width: 601px) {
+    .aparecer {
+        display: block;
+    }
+}

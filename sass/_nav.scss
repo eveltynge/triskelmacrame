@@ -1,0 +1,19 @@
+$padding: 15px;
+
+@mixin list-unstyled {
+    padding-left: $padding;
+    list-style: none;
+}
+.navbar {
+    @include list-unstyled;
+    text-transform: uppercase;
+    font-size: 22px;
+    a {
+        text-decoration: none;
+        color: #343232;
+    }
+    a:hover {
+        color: black;
+        text-shadow: 2px 2px 4px #adad85; 
+    }
+}

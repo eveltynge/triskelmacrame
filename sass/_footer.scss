@@ -1,0 +1,25 @@
+$padding: 15px;
+
+.menuRedes__items {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: ($padding)-5; /*operacion*/
+}
+.menuRedes__items--fb {
+    display: inline-block;
+    overflow: hidden;
+    width: 35px;
+    height: 34px;
+}
+.menuRedes__items--insta {
+    display: inline-block;
+    overflow: hidden;
+    width: 35px;
+    height: 35px;
+}
+.fondo {
+    background-image: url("/tpcoder/Git/img/background/fondo.jpg");
+}

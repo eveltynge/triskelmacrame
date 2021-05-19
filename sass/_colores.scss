@@ -1,0 +1,31 @@
+$colorfont: rgb(93, 56, 93);
+$padding: 15px;
+
+.pie__parrafo {
+    color: $colorfont;
+}
+.principal__titulo {
+    font-family: 'Redressed', cursive;
+}
+.principal__parrafo {
+    color: $colorfont;
+}
+.entregados__parrafo {
+    color: $colorfont;
+    text-align: center;
+}
+.entregados {
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Redressed', cursive;
+}
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+}
+.contacto {
+    padding: $padding*3;
+    p {
+        color: $colorfont;
+    }
+}
