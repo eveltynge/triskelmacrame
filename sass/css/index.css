@@ -103,7 +103,9 @@ h3 {
 
 @media (max-width: 601px) {
   .aparecer {
-    display: block; } }
+    display: block; }
+  textarea#comment {
+    height: 180px; } }
 
 .navbar {
   padding-left: 15px;
