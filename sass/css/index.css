@@ -116,6 +116,9 @@ h3 {
   .navbar a:hover {
     color: black;
     text-shadow: 2px 2px 4px #adad85; }
+  .navbar img {
+    max-width: 80px;
+    width: 100%; }
 
 .contactoForm {
   max-width: 1500px;
