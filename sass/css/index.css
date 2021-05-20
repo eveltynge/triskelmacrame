@@ -25,6 +25,9 @@ h3 {
   .contacto p {
     color: #5d385d; }
 
+.fondo {
+  background-color: #dfe6e9; }
+
 .menuRedes__items {
   display: flex;
   flex-flow: row nowrap;
@@ -45,9 +48,6 @@ h3 {
   overflow: hidden;
   width: 35px;
   height: 35px; }
-
-.fondo {
-  background-image: url("/tpcoder/Git/img/background/fondo.jpg"); }
 
 .aparecer {
   animation-duration: 3s;
